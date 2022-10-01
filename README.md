@@ -35,6 +35,7 @@
 
 #### Enable https service from firewall
 `firewall-cmd --permanent --add-service=https`
+  
 `firewall-cmd --reload`
 
 
