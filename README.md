@@ -10,13 +10,13 @@
 `yum install openssl`
 
 #### Create config file under httpd directory
-`cd /etc/httpd/conf.d/`
-`vi webserver.conf`
-      ```console
-      
-      <virtualhost *:443>
+- `cd /etc/httpd/conf.d/`
+- `vi webserver.conf`
+     ```console
+     <virtualhost *:443>
+     
+     </virtualhost>
 
-       </virtualhost>
-      ```
+     ```
        
        
